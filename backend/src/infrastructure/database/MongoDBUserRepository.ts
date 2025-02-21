@@ -1,6 +1,6 @@
 import { User } from "../../domain/entities/User";
 import { UserRepository } from "../../domain/repositories/UserRepository";
-import { Model, Schema, model } from "mongoose";
+import { Schema, model } from "mongoose";
 
 const userSchema = new Schema<User>({
   name: { type: String, required: true },
