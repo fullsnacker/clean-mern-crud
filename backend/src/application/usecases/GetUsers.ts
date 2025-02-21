@@ -1,7 +1,7 @@
-import { User } from "../../domain/entities/User";
 import { UserRepository } from "../../domain/repositories/UserRepository";
+import { User } from "../../domain/entities/User";
 
-export class GetAllUsers {
+export class GetUsers {
   constructor(private userRepository: UserRepository) {}
 
   async execute(): Promise<User[]> {
