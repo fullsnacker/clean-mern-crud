@@ -96,8 +96,8 @@ frontend/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/mern-crud-clean-architecture.git
-cd mern-crud-clean-architecture
+git clone https://github.com/fullsnacker/clean-mern-crud.git
+cd clean-mern-crud
 ```
 
 ---
@@ -119,7 +119,7 @@ npm install
 #### 3. Create a .env file in the backend folder and add the following:
 
 ```bash
-MONGODB_URI=mongodb://localhost:27017/mern-crud
+MONGODB_URI=mongodb+srv://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 PORT=5000
 ```
 
