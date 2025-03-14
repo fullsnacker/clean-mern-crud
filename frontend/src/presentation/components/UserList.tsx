@@ -29,10 +29,10 @@ const UserList = () => {
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">Users</h1>
+      <h1 className="text-2xl font-bold mb-4 text-white">Users</h1>
       <ul>
         {users.map((user) => (
-          <li key={user._id} className="mb-2">
+          <li key={user._id} className="mb-2 text-white">
             {user.name} - {user.email}
             <button
               onClick={() => setEditingUser(user)}

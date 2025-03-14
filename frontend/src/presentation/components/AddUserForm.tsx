@@ -21,7 +21,7 @@ const AddUserForm = ({ onUserCreated }: AddUserFormProps) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mb-4">
+    <form onSubmit={handleSubmit} className="mb-4 text-white">
       <input
         type="text"
         placeholder="Name"
