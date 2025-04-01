@@ -1,0 +1,15 @@
+services:
+  frontend:
+    build: ./frontend
+    container_name: frontend_c
+    ports:
+      - "8080:8080"
+  backend:
+    build: ./backend
+    container_name: backend_c
+    environment:
+      - MONGODB_URI=$DOCKER_MONGODB_URI
+    ports:
+      - "4000:4000"
+    stdin_open: true
+    tty: true

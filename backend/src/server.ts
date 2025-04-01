@@ -4,7 +4,7 @@ import app from "./infrastructure/server/app";
 
 dotenv.config();
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 const MONGODB_URI =
   process.env.MONGODB_URI || "mongodb://localhost:27017/mern-crud";
 

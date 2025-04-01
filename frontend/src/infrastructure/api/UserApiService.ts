@@ -2,7 +2,7 @@ import axios from "axios";
 import { UserRepository } from "../../domain/repositories/UserRepository";
 import { User } from "../../domain/entities/User";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "http://localhost:4000/api";
 
 export class UserApiService implements UserRepository {
   async getUsers(): Promise<User[]> {

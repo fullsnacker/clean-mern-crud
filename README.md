@@ -120,7 +120,7 @@ npm install
 
 ```bash
 MONGODB_URI=mongodb+srv://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-PORT=5000
+PORT=4000
 ```
 
 #### 4. Start the backend server:
@@ -129,7 +129,7 @@ PORT=5000
 npm run dev
 ```
 
-The backend will run on http://localhost:5000.
+The backend will run on http://localhost:4000.
 
 ---
 
