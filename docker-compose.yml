@@ -2,6 +2,8 @@ services:
   frontend:
     build: ./frontend
     container_name: frontend_c
+    environment:
+      - VITE_APP_API_URL=$DOCKER_VITE_APP_API_URL
     ports:
       - "8080:8080"
   backend:
